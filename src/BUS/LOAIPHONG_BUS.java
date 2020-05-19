@@ -10,5 +10,5 @@ package BUS;
  * @author duyhi
  */
 public class LOAIPHONG_BUS {
-    
+    String LP;
 }
