@@ -18,7 +18,7 @@ public class DANGKYDV_DAO {
     private final String deleted_DKDV ="delete do_an.DANGKYDV where madv = ? and ngaysd=? and mapt=?";
     private final String findMA_DKDV="select * from do_an.DANGKYDV where madv=?";
     private final String findTEN_DKDV="select * from do_an.DANGKYDV where ngaysd=?";
-    
+    //dazsdxfgfchvhjbkjkm
     private DataAccess dao; 
     
     public DANGKYDV_DAO() throws SQLException{
