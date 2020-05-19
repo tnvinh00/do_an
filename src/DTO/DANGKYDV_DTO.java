@@ -13,6 +13,8 @@ public class DANGKYDV_DTO {
     private String  _mapt;
     private String  _madv;
     private String  _ngaysd;
+    //ađâ
+    
     
     public boolean ck_string(String abc){
         for(char i: abc.toCharArray())
