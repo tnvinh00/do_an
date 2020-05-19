@@ -14,7 +14,7 @@ public class DANGKYDV_DTO {
     private String  _madv;
     private String  _ngaysd;
     //ađâ
-    
+    //ađâ
     
     public boolean ck_string(String abc){
         for(char i: abc.toCharArray())
