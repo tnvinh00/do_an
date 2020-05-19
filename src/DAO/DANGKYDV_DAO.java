@@ -19,7 +19,7 @@ public class DANGKYDV_DAO {
     private final String findMA_DKDV="select * from do_an.DANGKYDV where madv=?";
     private final String findTEN_DKDV="select * from do_an.DANGKYDV where ngaysd=?";
     //dazsdxfgfchvhjbkjkm
-    //âs
+    //âssfdgfhgh
     private DataAccess dao; 
     
     public DANGKYDV_DAO() throws SQLException{
