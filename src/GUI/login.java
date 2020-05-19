@@ -74,7 +74,7 @@ public class login extends javax.swing.JFrame {
         p_body.setPreferredSize(new java.awt.Dimension(550, 380));
         p_body.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        t_un.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        t_un.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
         t_un.setForeground(new java.awt.Color(192, 192, 192));
         t_un.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         t_un.setText("system");
@@ -90,7 +90,7 @@ public class login extends javax.swing.JFrame {
         });
         p_body.add(t_un, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, 180, 40));
 
-        tp_p.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        tp_p.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
         tp_p.setForeground(new java.awt.Color(192, 192, 192));
         tp_p.setText("password");
         tp_p.setBorder(null);
@@ -105,7 +105,7 @@ public class login extends javax.swing.JFrame {
         });
         p_body.add(tp_p, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 210, 180, 40));
 
-        b_login.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        b_login.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         b_login.setText("Login");
         b_login.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,6 +124,7 @@ public class login extends javax.swing.JFrame {
         jSeparator2.setForeground(new java.awt.Color(57, 62, 70));
         p_body.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 250, 180, 10));
 
+        jc_showp.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jc_showp.setText("Show Password");
         jc_showp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
